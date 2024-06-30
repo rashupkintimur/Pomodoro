@@ -1,0 +1,34 @@
+.btn {
+  font-weight: 500;
+  padding: 19px 50px;
+  border: none;
+}
+
+.red {
+  color: #dc3e22;
+  background: transparent;
+  border: 2px solid #dc3e22;
+  transition: background 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+
+.red:hover {
+  color: #ffffff;
+  background: #dc3e22;
+}
+
+.green {
+  border: 2px #a8b64f solid;
+  color: #ffffff;
+  background: #a8b64f;
+  transition: background 0.2s ease-in-out;
+}
+
+.green:hover {
+  background: #899441;
+}
+
+.disabled {
+  color: #c4c4c4;
+  border: 2px solid #c4c4c4;
+  background: transparent;
+}

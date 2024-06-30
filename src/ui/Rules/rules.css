@@ -1,0 +1,9 @@
+.pomodoro__rules {
+  padding: 0 0 0 15px;
+  color: #b7280f;
+}
+
+.pomodoro__rules span {
+  line-height: 33px;
+  color: var(--color);
+}

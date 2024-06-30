@@ -1,0 +1,25 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 70px;
+}
+
+header {
+  box-shadow: 0 10px 63px #00000012;
+  background: var(--headerBackground);
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.header__theme {
+  color: var(--color);
+  border: 1.5px solid #383838;
+  background: transparent;
+  border-radius: 5px;
+  padding: 5px 10px;
+}

@@ -1,0 +1,71 @@
+.timer__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c4c4c4;
+  min-height: 55px;
+  padding: 19px 40px;
+  color: #ffffff;
+  transition: background 0.5s ease-in-out;
+}
+
+.timer__header.pomodoro-active {
+  background: #dc3e22;
+}
+
+.timer__header.break {
+  background: #a8b64f;
+}
+
+.timer__name-task {
+  font-weight: 700;
+}
+
+.timer__count-pomodor {
+  font-size: 16px;
+  line-height: 17px;
+}
+
+.timer__content {
+  min-height: 452px;
+  background: var(--timerBackground);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.timer__inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timer__time {
+  font-weight: 200;
+  font-size: 150px;
+  line-height: 179px;
+  transition: color 0.5s ease-in-out;
+}
+
+.timer__time.active-break {
+  color: #a8b64f;
+}
+
+.timer__time.active-pomodoro {
+  color: #dc3e22;
+}
+
+.timer__info {
+  color: #999999;
+  margin: 0 0 32px 0;
+}
+
+.timer__info span {
+  color: #333333;
+}
+
+.timer__btns {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}

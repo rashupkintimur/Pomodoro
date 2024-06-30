@@ -1,0 +1,15 @@
+.stats-link {
+  display: flex;
+  align-items: center;
+}
+
+.stats-link p {
+  margin: 0 0 0 5px;
+  font-weight: 400;
+  color: #dc3e22;
+  transition: color 0.2s ease-in-out;
+}
+
+.stats-link:hover p {
+  color: #b7280f;
+}

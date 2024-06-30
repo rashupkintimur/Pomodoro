@@ -1,0 +1,25 @@
+.task-list__name {
+  padding: 19px 0;
+}
+
+.task-list__count {
+  display: inline-block;
+  margin: 0 10px 0 0;
+  border: 1px solid #c4c4c4;
+  border-radius: 50%;
+  padding: 4px 8px;
+}
+
+.task-list__input {
+  background: var(--tasksInputBackground);
+  color: var(--color);
+  border: none;
+}
+
+.task-list__input:focus {
+  background: #f4f4f4;
+}
+
+body.dark .task-list__input:focus {
+  background: var(--tasksInputBackground);
+}

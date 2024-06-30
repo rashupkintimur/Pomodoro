@@ -1,0 +1,32 @@
+.task-list__tooltip {
+  width: 165px;
+  border: 1px solid #c4c4c4;
+}
+
+.task-list__tooltip button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #ffffff;
+  padding: 10px 0;
+  color: #999999;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 17px;
+  border: none;
+  transition: background 0.2s ease-in-out;
+}
+
+.task-list__tooltip button:hover {
+  background: #f4f4f4;
+}
+
+.task-list__tooltip button span {
+  padding: 0 0 0 8px;
+}
+
+.task-list__options-btn {
+  background: transparent;
+  padding: 5px;
+}

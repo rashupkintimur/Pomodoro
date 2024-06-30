@@ -1,0 +1,104 @@
+.statistics {
+  padding: 100px 0 100px 0;
+}
+
+.statistics__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 30px 0;
+}
+
+.statistics__main {
+  display: grid;
+  grid-template-columns: 296px 1fr;
+  gap: 32px;
+  margin: 0 0 32px 0;
+}
+
+.statistics-aside {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.statistics-aside__top,
+.statistics-aside__bottom {
+  background: var(--statsCardBackground);
+}
+
+.statistics-aside__top {
+  padding: 25px;
+  min-height: 260px;
+}
+
+.statistics-aside__bottom.no-data {
+  padding: 32px 90px;
+}
+
+.statistics__footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+}
+
+.statistics-card {
+  padding: 25px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body.dark .statistics-card {
+  background: var(--statsCardBackground);
+}
+
+.statistics-card:first-child {
+  background: #ffdda9;
+}
+
+.statistics-card:nth-child(2) {
+  background: #dfdcfe;
+}
+
+.statistics-card:nth-child(3) {
+  background: #c5f1ff;
+}
+
+.statistics-card svg {
+  fill: transparent;
+}
+
+.statistics-card:first-child svg path {
+  stroke: #ffae35;
+}
+
+.statistics-card:nth-child(2) svg path {
+  stroke: #9c97d7;
+}
+
+.statistics-card:nth-child(3) svg path {
+  stroke: #7fc2d7;
+}
+
+.statistics-card.no-data {
+  background: var(--statsCardBackground);
+}
+
+.statistics-card.no-data svg {
+  fill: transparent;
+}
+
+.statistics-card.no-data svg path {
+  stroke: #c4c4c4;
+}
+
+.statistics-card__title {
+  margin: 0 0 20px 0;
+}
+
+.statistics-card__info {
+  font-size: 64px;
+  line-height: 76px;
+}

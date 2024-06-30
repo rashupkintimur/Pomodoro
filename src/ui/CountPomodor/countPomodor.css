@@ -1,0 +1,23 @@
+.statistics-aside__bottom-top {
+  padding: 23px 0 24px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.statistics-aside__bottom-top span {
+  color: #999999;
+  display: inline-block;
+  margin: 0 0 0 15px;
+}
+
+.statistics-aside__bottom-info {
+  background: #dc3e22;
+}
+
+.statistics-aside__bottom-info .statistics-aside__bottom-info-title {
+  padding: 9px 0;
+  color: #ffffff;
+  text-align: center;
+  margin: 0;
+}

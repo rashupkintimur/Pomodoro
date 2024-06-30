@@ -1,0 +1,7 @@
+.statistics__schedule-container {
+  background: #f4f4f4;
+}
+
+body.dark .statistics__schedule-container {
+  background: var(--backgroundColor);
+}

@@ -1,0 +1,19 @@
+.pomodoro {
+  padding: 100px 0 100px 0;
+}
+
+.pomodoro__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.pomodoro__title {
+  margin: 0 0 3px 0;
+}
+
+.pomodoro__info-content {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}

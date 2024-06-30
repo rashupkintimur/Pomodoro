@@ -1,0 +1,12 @@
+.statistics-aside__top-title {
+  margin: 0 0 14px 0;
+}
+
+.statistics-aside__top-descr {
+  line-height: 28px;
+}
+
+.statistics-aside__top-descr span {
+  font-weight: 700;
+  color: #dc3e22;
+}
