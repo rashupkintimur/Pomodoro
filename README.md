@@ -1,30 +1,62 @@
-# React + TypeScript + Vite
+# Pomodoro Timer
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание
 
-Currently, two official plugins are available:
+**Pomodoro Timer** — это веб-приложение, разработанное для управления временем и повышения продуктивности с использованием методики Pomodoro. Метод Pomodoro включает в себя работу в течение определенного промежутка времени (обычно 25 минут), после чего следует короткий перерыв (5 минут). После завершения нескольких циклов работы и перерывов, предлагается более длительный перерыв (15 минут). Также приложение позваоляет добавлять, удалять и отслеживать задачи.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Основные особенности
 
-## Expanding the ESLint configuration
+- **Статистика:** Анализировать статистику использования приложения.
+- **Интерфейс таймера:** Отображение оставшегося времени для текущего сеанса работы или перерыва.
+- **Уведомления:** Информирование пользователя о завершении сеанса работы или перерыва с помощью звуковых и визуальных уведомлений.
+- **Смена темы:** Смена темы на светлую и тёмную.
+- **React:** Библиотека для построения пользовательских интерфейсов.
+- **TypeScript:** Язык программирования, добавляющий типизацию к JavaScript, что улучшает поддержку и масштабируемость кода.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### Использование
 
-- Configure the top-level `parserOptions` property like this:
+- **Таймер** - Используйте таймер длинной в 25 минут.
+- **Старт/Пауза** - Останавливайте и запускайте таймер.
+- **Задачи** - Добавляйте задачи и отслеживайте их.
+- **Статистика** - Просматривайте и анализируйте статистику.
+- **Тема** - Выбирайте тему под себя.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Структура проекта
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+`index.html` - Основной HTML файл
+- `src` - Исходный код.
+  - `App.tsx` - Главый компонент.
+  - `main.tsx` - Компонент отрисовывающий App-компонент.
+  - `utils` - Каталог со доп. функциями.
+  - `ui` - Каталог с ui компонентами.
+  - `providers` -  Каталог с React-провайдерами.
+  - `pages` - Каталог с компонентами с бизнес-логикой.
+  - `hooks` - Каталог с кастомными хуками.
+  - `contexts` - Каталог с контекстами.
+  - `assets` - Каталог с ресурами проекта.
+    - `fonts` - Каталог со шрифтами.
+    - `img` - Каталог с изображениями.
+    - `sounds` - Каталог со звуковыми файлами.
+- `package.json` - Файл зависимостей и скриптов.
+- `tsconfig.json` - Файл с конфигурацией TypeScript.
+- `vite.config.ts` - Файл с конфигурацией Vite
+- `tsconfig.node.json` - Файл с конфигурацией TypeScript при работе с Node.js
+- `.gitignore` - Файл с исключением отслеживания git каталогов и файлов
+- `.eslintrc.cjs` - Файл с настройкой линтера ESLint
+- `.editorconfig` - Файл с настройкой плагина editorconfig
+
+## Установка
+
+1. Установка репозитория.
+  ```bash
+  git clone https://github.com/rashupkintimur/pomodoro.git
+
+2. Установка зависимостей.
+  ```bash
+  npm i
+
+3. Запуск проекта.
+  ```bash
+  npm run dev
+
+4. Откройте бразуер и перейдите по адресу http://localhost:3000.
