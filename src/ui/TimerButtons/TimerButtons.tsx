@@ -82,7 +82,7 @@ export const TimerButtons = ({
             type="red"
             onClick={() => {
               myRestart(modeTimer);
-              setTaskList(taskList.filter((task, index) => index !== 0));
+              setTaskList(taskList.filter((_, index) => index !== 0));
             }}
           >
             Сделано
