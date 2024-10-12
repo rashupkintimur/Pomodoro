@@ -50,13 +50,13 @@
 1. Установка репозитория.
 
 ```bash
-git clone https://github.com/rashupkintimur/pomodoro.git
+git clone https://github.com/rashupkintimur/Pomodoro.git
 ```
 
-2. Установка зависимостей.
+2. Перейдите в каталог и установите зависимости.
 
 ```bash
-npm i
+cd pomodoro && npm i
 ```
 
 3. Запуск проекта.
