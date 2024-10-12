@@ -48,15 +48,21 @@
 ## Установка
 
 1. Установка репозитория.
-  ```bash
-  git clone https://github.com/rashupkintimur/pomodoro.git
+
+```bash
+git clone https://github.com/rashupkintimur/pomodoro.git
+```
 
 2. Установка зависимостей.
-  ```bash
-  npm i
+
+```bash
+npm i
+```
 
 3. Запуск проекта.
-  ```bash
-  npm run dev
+
+```bash
+npm run dev
+```
 
 4. Откройте бразуер и перейдите по адресу http://localhost:3000.
